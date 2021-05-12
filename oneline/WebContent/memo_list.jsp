@@ -32,8 +32,8 @@
 		rs.close();
 		pstmt.close();
 		con.close();
-		out.println("DB연결 성공"); 
-
+		out.println("데이터 추가 성공"); 
 	%>
+		<button onclick="location='memo01.html'">작성</button>
 </body>
 </html>
